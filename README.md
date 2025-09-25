@@ -12,6 +12,9 @@ Her er vores github repo
   * Filer dines under Serverside/public
   * [Spillets Kode (js)](https://github.com/sand7797/pilotprojekt/blob/main/Serverside/public/script.js)
   * [Landing page - join lobby kode (js)](https://github.com/sand7797/pilotprojekt/blob/main/Serverside/public/startscript.js)
+ 
+    
+   HTML & CSS:
   * [Spillets HTML](https://github.com/sand7797/pilotprojekt/blob/main/Serverside/public/game.html)
   * [Landing page - join lobby HTML](https://github.com/sand7797/pilotprojekt/blob/main/Serverside/public/index.html)
   * [CSS](https://github.com/sand7797/pilotprojekt/blob/main/Serverside/public/style.css)
