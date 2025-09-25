@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landsbykrig</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Landsbyspil</h1>
+  <div id="Startscreen">
+    <h1 id="holdtekst">HOLD<h1>
+    <h2 id="spillertekst">Du er spiller</h2> 
+    <h2>venter på andre spillere...</h2>
+  </div>
+  <div class="content">
+  <div class="hidden grid-container" id="team1">
+    <button id="saml" class="item">Saml Træ <br> (+2 træ, +1 mad)</button>
+    <button disabled id="fiskh1" class="item">Fisk <br> (Åen er vogtet)</button>
+    <button id="steal" class="item">Stjæl Træ<br> (+5 træ)</button>
+    <button id="kill" class="item vote">Dræb Åens Vogter <br> (0/4 stemmer)</button>
+  </div>
+  <div class="hidden grid-container" id="team2">
+    <button id="saml" class="item">Saml Træ<br> (+2 træ)</button>
+    <button id="steal" class="item">Stjæl Træ<br> (+5 træ)</button>
+    <button id="fisk" class="item">Fisk<br> (+8 mad) </button>
+    <button disabled id="fiskvogt" class="item">Fisk og vogt åen <br>(I har allerede en vogter)<br></button>
+  </div>
+  </div>
+  <button disabled class="hidden submit" id="submit" onclick="submit()">OK</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

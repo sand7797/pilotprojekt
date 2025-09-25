@@ -1,0 +1,7 @@
+*.env
+*.log
+Serverside/node_modules/
+Serverside/sessions/
+UnityClientside/Logs/
+UnityClientside/Assets/_Recovery/
+UnityClientside/Library/
