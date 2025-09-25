@@ -5,6 +5,9 @@ Serverside/sessions/
 UnityClientside/Logs/
 UnityClientside/Assets/_Recovery/
 UnityClientside/Library/
-UnityClientside/Library/
+UnityClientside/Packages/
 UnityClientside/Assets/TextMesh\ Pro/Shaders/
+*.shader.meta
+*.compiled
+*.cginc
 *.meta
