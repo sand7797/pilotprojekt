@@ -21,7 +21,7 @@ public class CodeGen : MonoBehaviour
 
     string GenerateCode(int length)
     {
-        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        const string chars = "ABCDEFGHIJKLMNPQRSTUVWXYZ123456789";
         System.Text.StringBuilder code = new System.Text.StringBuilder();
         for (int i = 0; i < length; i++)
         {
